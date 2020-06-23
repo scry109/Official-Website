@@ -1,3 +1,5 @@
+/*--------ELEMENTS--------*/
+
 body {
   margin: 0;
   text-align: center;
@@ -8,15 +10,19 @@ body {
 h1 {
   font-family: 'Neucha', cursive;
   color: #66BFBF;
+  font-size: 5.625rem;
+  padding-top: 50px;
+  margin: 50px auto 0 auto;
+  line-height: 2;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   padding-top: 15px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0 auto;
+  padding-bottom: 10px;
   color: #66BFBF;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -26,16 +32,18 @@ h3 {
 
 hr {
   border-style: dotted none none none;
-  margin: auto;
-  margin-bottom: 25px;
+  margin: 100px auto;
   width: 3%;
   border-width: 6px;
   color: #c5d1d1;
 }
 
-.hrbrok{
-  margin: auto;
+p{
+  line-height: 2;
 }
+
+
+/*--------TOP CONTAINER--------*/
 
 .top-container {
   background-color: #EAF6F6;
@@ -45,37 +53,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  bottom: 750px;
-  margin-left: 280px;
-}
-
-.header1 {
-  font-size: 90px;
-  padding-top: 50px;
-  margin: 50px auto 0 auto;
-  color: #66BFBF;
-  line-height: 2;
-}
-
-.ama {
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-.mano {
-  font-style: oblique;
-}
-
-.amam {
-  margin-top: 10px;
+  right: 300px;
+  top: 70px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 550px;
-  bottom: 450px;
+  left: 350px;
+  bottom: 400px;
 }
 
 .mountain {
@@ -85,31 +70,32 @@ hr {
   display: block;
 }
 
-.h21 {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
 
-.mida1 {
-  width: 25%;
-  margin: 15px auto;
-}
+/*--------MIDDLE CONTAINER--------*/
 
 .middle-container {
   background-color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .skill-row {
   width: 50%;
   margin: 50px auto 150px auto;
   text-align: left;
-  line-height: 2;
 }
+
+
+/*--------CONTACT ME--------*/
 
 .contact-me {
   background-color: #FFFFFF;
   padding-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .btn {
@@ -148,14 +134,13 @@ hr {
   text-decoration: none;
 }
 
+
+/*--------FOOTER--------*/
+
 .bottom-container {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #66bfbf;
-}
-
-.dabot {
-  color: #eaf6f6;
 }
 
 .footer-link {
@@ -163,7 +148,20 @@ hr {
   font-weight: bold;
 }
 
+.ccfl {
+  color: #eaf6f6;
+}
+
+
+/*--------SPANS--------*/
+
+.span1 {
+  font-style: oblique;
+}
+
+
 /*--------PICTURES--------*/
+
 .face {
   border-radius: 100%;
   width: 13%;
@@ -183,9 +181,4 @@ hr {
   float: right;
   margin-left: 30px;
   border-radius: 100%;
-}
-
-.profile {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
